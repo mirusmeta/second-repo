@@ -11,6 +11,7 @@ class Canvas(QFrame):
         self.circles = []
         self.setAttribute(Qt.WidgetAttribute.WA_OpaquePaintEvent)
 
+
     def add_circle(self):
         diameter = random.randint(20, 100)
         w = self.width()
